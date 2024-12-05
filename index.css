@@ -1,0 +1,76 @@
+body {
+  font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+  background-color: #bb2528;
+  box-sizing: border-box;
+}
+
+h1 {
+  width: 40%;
+  margin: 0 auto;
+  margin-top: 0.4em;
+  margin-bottom: 6px;
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 400;
+  font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+  color: white;
+  font-size: 2rem;
+  font-weight: 400;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 0.5em;
+}
+
+.calendar-container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr); 
+  gap: 1px;
+  padding: 8px;
+  max-width: 700px;
+  margin: 0 auto;
+  margin-bottom: 1em;
+  background-color: #137a4c;
+  border-radius: 20px;
+  
+}
+
+.calendar-box {
+  background-color: #f7b93d;
+  font-size: 12px;
+  text-align: left;
+  padding: 2px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.calendar-box p {
+  margin: 0;
+  text-align: center;
+  margin-top: 2px;
+  font-size: 16px;
+}
+
+.calendar-box > p {
+  margin-bottom: 12px;
+}
+
+.fas {
+  margin-left: 12px;
+}
+
+.gift-message {
+  text-align: center;
+  font-size: 1.5rem;
+  color: white;
+  background-color: #137a4c;
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 800px;
+  width: 40%;
+  margin: 0 auto;
+}
